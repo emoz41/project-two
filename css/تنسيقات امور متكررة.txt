@@ -1,0 +1,22 @@
+section .page-home .part-04 .parts-right
+
+.base-of-week .words-timer button span
+{
+    position:realtive;z-index:2
+}
+section .page-home .part-04 .parts-right
+
+.base-of-week .words-timer button .effect
+{
+    width:0;height:100%;
+    background-color:var(--background-color-red);
+    transition:all .2s ease-in-out;
+    position:absolute;top:0;left:0;
+    z-index:1;
+}
+section .page-home .part-04 .parts-right
+
+.base-of-week .words-timer button:hover .effect
+{
+    width:100%;
+}
